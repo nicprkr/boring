@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Lobster:100,400');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
+h1, h2, h3, h4, .subtitle {
+    font-family: 'Roboto Mono', monospace;
+    z-index: 10;
+}
+.border {
+    border: 12px solid #CC5440 !important;
+    padding: 4rem;
+}
+.red-body {
+    background-color: #CC5440;
+    padding: 4rem;
+    color: white;
+}
+.red {
+    color: #CC5440;
+}
+.white {
+    color: #fff;
+}
+.subtitle {
+    font-size: 18pt;
+    text-transform: capitalize;   
+}
+p {
+    margin-bottom: 75px;
+}
+.item {
+    font-weight: 100;
+    font-size: 14pt;
+}
+.item p {
+ font-family: 'Roboto Mono', monospace;
+}
+.icon-img {
+    max-width: 75px;
+    height: auto;
+    margin-bottom: 15px;
+}
+    .underline {
+       text-decoration: none; 
+       position: relative; 
+     }   
+
+    .underline:before {
+        position: absolute;
+        content: '';
+        height: 20px;
+        bottom: -8px; 
+        margin: 0 auto;
+		  left: 0;
+        right: 0;
+		  width:52%;
+		  background: #fabdab;
+        z-index:-1;
+}
+table {
+    border: none;
+}
+thead {
+    color: #CC5440;
+}
+.table td, .table th {
+    border: 0px !important;
+}
+.table td {
+    text-align: left !important;
+    padding-left: 75px;
+}
+.thanks {
+    font-family: 'Lobster', cursive;
+    font-size: 56pt;
+}
+.thanks-container {
+    margin: 140px 0;
+}
